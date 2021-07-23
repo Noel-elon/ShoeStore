@@ -24,7 +24,7 @@ class ShoeDetailFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        binding = FragmentShoeDetailBinding.inflate(inflater)
+        binding =  DataBindingUtil.inflate(inflater, R.layout.fragment_shoe_detail, container, false)
         binding.lifecycleOwner = this
         binding.shoeViewModel = viewModel
 

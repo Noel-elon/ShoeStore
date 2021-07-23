@@ -11,6 +11,8 @@
             type="com.udacity.shoestore.shoe.ShoeViewModel" />
     </data>
 
+    <!-- On this screen, we could've used any view group but I opted for constraint layout so I avoid embedded linear layouts
+  -->
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">

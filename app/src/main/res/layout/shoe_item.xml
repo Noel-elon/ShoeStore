@@ -10,6 +10,8 @@
             type="com.udacity.shoestore.models.Shoe" />
     </data>
 
+    <!-- There are multiple children in this layout and I chose to use constraints instead of a linear layout for ease of design
+  -->
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">

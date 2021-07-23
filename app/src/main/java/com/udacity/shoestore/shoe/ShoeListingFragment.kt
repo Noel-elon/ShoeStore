@@ -27,7 +27,7 @@ class ShoeListingFragment : Fragment() {
 
         val navController = findNavController()
 
-        binding = FragmentShoeListingBinding.inflate(inflater)
+        binding =  DataBindingUtil.inflate(inflater, R.layout.fragment_shoe_listing, container, false)
         binding.shoeViewModel = viewModel
         binding.lifecycleOwner = this
 

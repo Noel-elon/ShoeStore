@@ -10,6 +10,10 @@
             type="com.udacity.shoestore.shoe.ShoeViewModel" />
     </data>
 
+    <!-- This is a more complex screen when compared to the rest and a constraint layout is the best
+    for complex screens, that's why I opted for constraint.
+  -->
+
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">

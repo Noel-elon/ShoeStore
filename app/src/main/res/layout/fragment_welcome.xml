@@ -10,6 +10,10 @@
             type="com.udacity.shoestore.onboarding.OnBoardingViewModel" />
     </data>
 
+    <!-- On this screen (as in the others), any View group may have achieved the desired layout, but I opted for constraint layout
+  for practice purposes. and because of the centered button.
+  -->
+
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"

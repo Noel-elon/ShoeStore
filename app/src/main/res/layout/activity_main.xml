@@ -3,6 +3,11 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools">
 
+
+    <!--I opted for a linear layout in this file because of the straightforwardness of the layout.
+     It is a couple of views stacked on top each other and it's easier to use a vertical linear layout
+    -->
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
